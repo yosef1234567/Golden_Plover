@@ -1,0 +1,135 @@
+#logo {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.active {
+    background-color: skyblue;
+    color: white;
+}
+
+#game-header {
+    color: blue;
+    background-color: beige;
+    padding: 10px;
+}
+
+#game-github-link {
+    padding: 10px;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+#game-github-link:hover {
+    color: palevioletred;
+}
+
+.card {
+    transition: transform 0.3s ease;
+  }
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    transform: translate(0, -5px); 
+  }
+
+#line1 {
+    color: orange;
+}
+
+#line2 {
+    color: red;
+}
+
+#line3 {
+    color: blueviolet;
+}
+
+#line5 {
+    color: gold;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#welcome {
+    background-color: rgb(250, 236, 155);
+    width: 40%;
+    height: auto;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#welcome p {
+    font-size: 30px;
+    color: rgb(201, 171, 3);
+}
+
+#welcome button {
+    background-color: rgb(173, 128, 15);
+    color: rgb(252, 236, 147);
+}
+
+#plover {
+    width: 60%;
+    height: auto;
+}
+
+#plover img {
+    width: 100%;
+    height: auto;
+}
+
+#collapseExample .card{
+    text-align: left;
+    background-color: rgb(110, 99, 69);
+}
+
+#collapseExample p {
+    font-size: 20px;
+}
+
+#collapseExample a{
+    color: gold;
+}
+
+.home p{
+    color: silver;
+    font-size: 80px;
+    text-align: center;
+}
+
+.home span {
+    color: gold;
+    font-size: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    #contact-container {
+      flex-direction: column-reverse;
+    }
+    #welcome, #plover{
+        width: 100%;
+    }
+
+    .home p{
+        font-size: 35px;
+    }
+    
+    .home span {
+        font-size: 35px;
+    }
+  }
